@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="stylesheet" href="<c:url value='/styles/main.css' />" type="text/css" />
+    <link rel="stylesheet" href="<c:url value='/assets/styles/main.css' />" type="text/css" />
     <title>~ Login Page ~</title>
 </head>
 <body>
@@ -16,6 +16,6 @@
         <input type="submit" value="Submit">
         <input type="reset" value="Reset">
     </form>
-    <script type="application/javascript" src="<c:url value='/scripts/main.js' />"></script>
+    <script type="application/javascript" src="<c:url value='/assets/scripts/main.js' />"></script>
 </body>
 </html>

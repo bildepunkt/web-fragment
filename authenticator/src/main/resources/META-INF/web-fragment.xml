@@ -6,6 +6,15 @@
               id="WebAppFragment_ID" version="3.0">
     <name>authentication-fragment</name>
 
+    <!--<listener>
+        <listener-class>com.pingidentity.nerdfest.mosaic.module.beer.listeners.RequestListener</listener-class>
+    </listener>
+
+    <servlet>
+        <servlet-name>beerServlet</servlet-name>
+        <servlet-class>com.pingidentity.nerdfest.mosaic.module.beer.web.BeerServlet</servlet-class>
+    </servlet>-->
+
     <security-constraint>
         <web-resource-collection>
             <web-resource-name>Client</web-resource-name>
