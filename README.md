@@ -1,18 +1,19 @@
 Web Fragments
 =============
 
-based on http://www.logicbig.com/tutorials/java-ee-tutorial/java-servlet/servlet-web-fragment/
+Investigating the modularization of web fragments for the purpose of embedding the Authenticator's step up capabilities.
 
 ### Setup
 
-Navigate to `./authenticator` and run
+Navigate to `./fragment` and run
 
     mvn clean install
 
 ### Run
 
-Navigate to `./multiple-devices` and run
+Navigate to `./container` and run
     
     mvn clean tomcat7:run-war
 
-Browse at http://localhost:8080/multiple-devices/
+Browse at http://localhost:8080
+
